@@ -1,9 +1,17 @@
 import React from 'react';
+import heroImage from "../assets/homepage-people-hero.webp";
 
 export default function Hero({ onViewChange }) {
   return (
     <section className="hero-section-wrapper">
-      <div className="hero-card-container">
+      <div className="hero-card-container"
+        style={{
+          backgroundImage: `url(${heroImage})`,
+          backgroundSize: "cover",
+          backgroundPosition: "right center",
+          backgroundRepeat: "no-repeat",
+        }}
+        >
         {/* Left Side: Content */}
         <div className="hero-text-content">
           <div className="hero-tag-badge">
