@@ -433,7 +433,7 @@ button {
 
 .hero-card-container {
   background-color: #e8dacf; /* Soft beige tone matching the photo background */
-  background-image: url('src/assets/homepage-people-hero.webp');
+  background-image: url('assets/homepage-people-hero.webp');
   background-size: cover;
   background-position: right center;
   background-repeat: no-repeat;
