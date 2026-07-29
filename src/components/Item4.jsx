@@ -1,4 +1,5 @@
 import React from 'react';
+import campaignVideo from '../assets/13137663_1080_1920_30fps (1).mp4';
 
 export default function Item4() {
   return (
@@ -33,7 +34,7 @@ export default function Item4() {
         <div className="video-player-container">
           <video 
             className="campaign-video"
-            src="src\assets\13137663_1080_1920_30fps (1).mp4"
+            src={campaignVideo}
             loop
             muted
             autoPlay
