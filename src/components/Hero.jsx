@@ -8,7 +8,7 @@ export default function Hero({ onViewChange }) {
         style={{
           backgroundImage: `url(${heroImage})`,
           backgroundSize: "cover",
-          backgroundPosition: "right center",
+          backgroundPosition: "left",
           backgroundRepeat: "no-repeat",
         }}
         >
