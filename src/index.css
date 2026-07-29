@@ -615,6 +615,8 @@ button {
 @media (max-width: 768px) {
   .hero-section-wrapper {
     padding: 0 16px;
+    background-image: url('src/assets/homepage-people-hero.webp');
+    background-position: center;
     margin: 16px auto 32px auto;
   }
 
